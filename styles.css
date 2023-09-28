@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.section1{
+    display: inline-block;
+    margin-left: 10vw;
+}
+
+.section2{
+    display: inline-block;
+}
+
+.header{
+    margin-top: 4.4vh;
+    margin-left: 7.6vw;
+}
+
+.links{
+    color: #989D9C;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 3vw;
+}
+
+
+main{
+    position: relative;
+    top: 15vh;
+}
+
+div{
+    margin-left:5vw ;
+}
+
+h1{
+    color: #515151;
+    font-family: Montserrat;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+h2{
+    color: #515151;
+    font-family: Montserrat;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+p{
+    margin: 65px 0;
+    width: 515px;
+    color: #848484;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button1{
+    border: none;
+    background: #665AE1;
+    width: 130px;
+    height: 41px;
+    border-radius: 30px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.button2{
+    width: 239px;
+    height: 64px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 30px;
+    background: #ADFF00;
+    box-shadow: 2px 2px #515151;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .section1 {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .section2 {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    p{
+        display: block;
+        margin: 4vh auto;
+        text-align: center;
+        
+    }
+
+    .button2{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 888px) {
+
+    .header{
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+   
+    img{
+        width: 354px;
+        height: 305px;
+    }
+
+    h1{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        color: #515151;
+        font-family: Montserrat;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;    
+        width: 263px;
+        height: 52px;
+    }
+
+    h2{
+        display: block;
+        margin: 2vh auto;
+        text-align: center;
+        color: #515151;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    p{
+        display: none;
+    }
+
+    .button2{
+        width: 239px;
+        height: 64px;
+        width: 239px;
+        height: 64px;
+        flex-shrink: 0;
+    }
+
+    .header{
+        display: none;
+    }
+}
